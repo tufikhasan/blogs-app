@@ -1,0 +1,47 @@
+.app__navbar {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  position: fixed;
+  z-index: 2;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.app__navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    width: 100px;
+    height: 40px;
+
+    @media screen and (min-width: 2000px) {
+      width: 180px;
+      height: 40px;
+    }
+  }
+}
+.app__navbar-menu {
+  display: flex;
+  flex-direction: row;
+  li {
+    margin: 0 1rem;
+    cursor: pointer;
+    a {
+      color: var(--white-color);
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        color: var(--secondary-color);
+      }
+    }
+  }
+}
