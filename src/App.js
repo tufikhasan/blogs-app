@@ -1,11 +1,17 @@
 import './App.css';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { Home, Blogs } from './pages';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      welcome to my blogs app
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blogs" element={<Blogs />} />
+      </Routes>
+    </>
   );
-}
+};
 
 export default App;
