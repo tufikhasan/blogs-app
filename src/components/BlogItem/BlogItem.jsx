@@ -8,7 +8,6 @@ const BlogItem = ({
     title,
     description,
     category,
-    subCategory,
     imageUrl,
     publishedAt,
     authorName,
