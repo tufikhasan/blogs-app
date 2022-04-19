@@ -1,8 +1,14 @@
 import React from 'react';
-import { SearchBar } from '../../components';
+import { Bloglist, SearchBar } from '../../components';
+import { bloglist } from '../../demoData';
 
 const Home = () => {
-  return <SearchBar />;
+  return (
+    <>
+      <SearchBar />
+      <Bloglist blogs={bloglist} />
+    </>
+  );
 };
 
 export default Home;

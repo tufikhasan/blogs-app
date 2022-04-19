@@ -12,11 +12,11 @@ const SearchBar = ({ formSubmit, value, handleSearchKey, clearSearch }) => {
           placeholder="Search by category"
           onChange={handleSearchKey}
         />
-        {
+        {value && (
           <span className="bold-text" onClick={clearSearch}>
             X
           </span>
-        }
+        )}
         <button className="primary_button">Go</button>
       </form>
     </div>
