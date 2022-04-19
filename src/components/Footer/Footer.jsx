@@ -47,6 +47,13 @@ const Footer = () => {
         >
           <span className="fa fa-facebook"></span>
         </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/tufikhasan"
+        >
+          <span className="fa fa-github"></span>
+        </a>
       </div>
     </div>
   );
