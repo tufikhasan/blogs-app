@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Bloglist, SearchBar } from '../../components';
+import { Bloglist, SearchBar, NotFound } from '../../components';
 import { bloglist } from '../../demoData';
 
 const Home = () => {
@@ -37,7 +37,7 @@ const Home = () => {
         handleSearchKey={(e) => setSearchKey(e.target.value)}
         clearSearch={clearSearch}
       />
-      <Bloglist blogs={blogs} />
+      {!blogs.length ? <NotFound /> : <Bloglist blogs={blogs} />}
     </>
   );
 };
