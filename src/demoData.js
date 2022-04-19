@@ -18,10 +18,9 @@ export const bloglist = [
     id: 2,
     category: 'backend',
     subCategory: ['node', 'nextjs', 'laravel'],
-    title:
-      'Bitcoin Reaches Milestone Blockstream are partnering with Tesla on an',
+    title: 'Bitcoin Reaches Milestone ',
     description:
-      'Block and Blockstream are partnering with Tesla on an open-source, solar-powered Bitcoin mine, the companies announced Friday. Tesla’s 3.8-megawatt Solar PV array and its 12 megawatt-hour Megapack will power the facility, and construction has started on the p…',
+      'Block and Blockstream are partnering with Tesla on an open-source, solar-powered Bitcoin mine, the companies announced Friday. Tesla’s ',
     imageUrl:
       'https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg',
     publishedAt: '2022-04-08T16:02:52Z',

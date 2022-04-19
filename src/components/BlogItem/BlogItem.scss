@@ -6,8 +6,10 @@
   border-radius: 15px;
   img {
     border-radius: 5px;
-    object-fit: contain;
+    object-fit: cover;
     margin-bottom: 0.5rem;
+    height: 230px;
+    width: 100%;
   }
   span {
     font-size: 0.7rem;
@@ -19,7 +21,9 @@
     border-radius: 5px;
   }
   h3 {
-    margin: 0.5rem 0;
+    margin: 0.5rem 0 0;
+    flex: 1;
+    height: 60px;
   }
   .app__blogitem-author {
     display: flex;
