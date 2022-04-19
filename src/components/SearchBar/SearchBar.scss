@@ -1,0 +1,26 @@
+.app__searchbar {
+  flex: 1;
+  width: 100%;
+  margin-top: 2rem;
+  form {
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    display: flex;
+    align-items: center;
+    input {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      padding: 0.5rem;
+    }
+    span {
+      cursor: pointer;
+    }
+    button {
+      padding: 0.4rem;
+      margin-left: 0.3rem;
+    }
+  }
+}
