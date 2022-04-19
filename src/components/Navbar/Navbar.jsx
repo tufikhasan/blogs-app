@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.scss';
-import { images } from '../../constants';
+import logo from '../../assets/logo.png';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="app__navbar">
       <div className="app__navbar-logo">
         <Link to="/">
-          <img src={images.logo} alt="Logo" />
+          <img src={logo} alt="Logo" />
         </Link>
       </div>
       <ul className="app__navbar-menu">

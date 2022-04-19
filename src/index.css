@@ -3,7 +3,7 @@
 :root {
   --font-base: 'Poppins', sans-serif;
   --primary-color: #edf2f8;
-  --secondary-color: #e67e22;
+  --secondary-color: #d35400;
   --black-color: #2d3436;
   --gray-color: #6b7688;
   --white-color: #ffffff;
@@ -17,6 +17,7 @@
 }
 a {
   text-decoration: none;
+  color: var(--secondary-color);
 }
 ul {
   list-style: none;
