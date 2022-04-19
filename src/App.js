@@ -2,7 +2,7 @@ import './App.scss';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Home, Blog, About } from './pages';
-import { Navbar } from './components';
+import { Footer, Navbar } from './components';
 
 const App = () => {
   return (
@@ -15,6 +15,7 @@ const App = () => {
           <Route path="/blogs/:id" element={<Blog />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 };
