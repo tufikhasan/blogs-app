@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+#preview
+![react-blogs-app-netlify-app-2022-06-28-06_22_24](https://user-images.githubusercontent.com/52672268/176061127-c1b4a6cd-2208-4760-be03-c56a27d8c797.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
